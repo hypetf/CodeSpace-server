@@ -6,7 +6,6 @@ const getUser = require('./getUser');
 
 router.use('/v1/auth/', googleAuth);
 router.use('/v1/auth/', githubAuth);
-router.use('/v1/auth/', githubAuth);
 router.use('/v1/user/', getUser);
 router.use('/v1/user/logout', (req, res) => {
     req.session.destroy();
