@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();    
 
-router.get('/test', (req, res) => {
-    res.send("test route api");
+router.get('/github', (req, res) => {
+    res.send("github auth");
 });
 
 module.exports = router;
