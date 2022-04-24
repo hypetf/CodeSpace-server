@@ -1,3 +1,8 @@
+<center>
+   <img src="./Logo.png" width=250/><br/><br/>
+</center>
+
+
 # CodeSpace
 1. <a href="#about">About section</a>
 2. <a href="#start">Getting started section</a>
@@ -44,7 +49,7 @@ This project is developed on NodeJS v16.14.2.
 
 Server will be live on:
    ```sh
-   http://localhost:5000/
+   http://localhost:5001/
    ```
 
 <span id="todo"></span>
@@ -59,18 +64,20 @@ Server will be live on:
 - [x] Setup client and routing
 - [x] Setup themes
 - [x] Setup light and dark mode
-- [ ] Complete Home Page
-- [ ] Complete Login/Sign up Page
+- [x] Complete Home Page
+- [x] Complete Login Page
+- [ ] Complete Sign up Page
 - [ ] Complete Task Page
 
 ### Backend
 - [x] Setup Server with Express
 - [x] Setup basic routes
 - [x] Setup REST API and a test route
-- [ ] Setup MongoDB Database
-- [ ] Setup Google oAuth
-- [ ] Setup GitHub oAuth
-- [ ] Setup Login/Sign Up with email and password
+- [x] Setup MongoDB Database
+- [x] Setup Google oAuth
+- [x] Setup GitHub oAuth
+- [ ] Setup Login with email and password
+- [ ] Setup Sign up with email and password
 
 ### Testing
 - [ ] Ensure consistency in design and themes
